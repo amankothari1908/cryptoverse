@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+}
+
+/* Responsive styles for screen sizes at or below medium (md) breakpoint */
+@media (max-width: 960px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  border-right: 2px solid grey;
+}
+
+/* Responsive styles for screen sizes at or below medium (md) breakpoint */
+@media (max-width: 960px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+}
+
+.description {
+  width: 100%;
+  font-family: Montserrat, sans-serif;
+  padding: 25px;
+  padding-bottom: 15px;
+  padding-top: 0;
+  text-align: justify;
+}
+
+.marketdata {
+  align-self: flex-start;
+  padding: 25px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+/* Responsive styles for screen sizes at or below medium (md) breakpoint */
+@media (max-width: 960px) {
+  .marketdata {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* Responsive styles for screen sizes at or below small (sm) breakpoint */
+@media (max-width: 600px) {
+  .marketdata {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Responsive styles for screen sizes at or below extra small (xs) breakpoint */
+@media (max-width: 400px) {
+  .marketdata {
+    align-items: flex-start;
+  }
+}

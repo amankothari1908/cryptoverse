@@ -1,0 +1,16 @@
+.row {
+  background-color: #16171a;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.row:hover {
+  background-color: #131111;
+}
+
+.pagination {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

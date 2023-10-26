@@ -1,0 +1,27 @@
+/* Equivalent Normal CSS */
+
+.selectbutton {
+  border: 1px solid gold;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Montserrat, sans-serif;
+  cursor: pointer;
+  background-color: "";
+  color: "";
+  font-weight: 500;
+  width: 22%;
+}
+
+.selectbutton:hover {
+  background-color: gold;
+  color: black;
+}
+
+/* Styles for the selected state */
+.selectbutton.selected {
+  background-color: gold;
+  color: black;
+  font-weight: 700;
+}
