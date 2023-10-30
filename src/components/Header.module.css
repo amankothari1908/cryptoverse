@@ -4,6 +4,7 @@
   font-family: "Montserrat";
   font-weight: bolder;
   cursor: pointer;
+  padding-right: 20px;
 }
 
 .header-select {

@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 25px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .banner-tagline {
@@ -28,4 +28,10 @@
   color: darkgrey;
   text-transform: capitalize;
   font-family: "Montserrat";
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-text {
+    font-size: 2.5rem !important;
+  }
 }
